@@ -4,17 +4,16 @@
 
 Cross-Chain Identity provides a single, portable digital identity that works across all EVM-compatible and non-EVM blockchains. Users control one identity that seamlessly bridges across Ethereum, Solana, Cosmos, and other networks—eliminating fragmented identity management.
 
-## On-Chain Proof
+## On-Chain Proof (Deployed & Verified)
 
-| Contract | Address |
-|----------|---------|
-| CrossChainIdentity | `TBD` |
-| ChainBridgeRegistry | `TBD` |
-| IdentityVerifier | `TBD` |
-| AttestationHub | `TBD` |
+### Base Sepolia (OP Stack)
 
-Network: Ethereum Mainnet + Multi-Chain (Solana, Polygon, Arbitrum, Optimism, Base, BNB Chain)
+| Contract | Address | Tx Hash |
+|----------|---------|--------|
+| **CrossChainIdentity** | [`0x4cBd...9995`](https://sepolia.basescan.org/address/0x4cBd36b8a58972d69294C751C62cfBa0B64b9995) | [`0xea82...7ad6`](https://sepolia.basescan.org/tx/0xea82d1ca1c5dbbf3cedf0a05f6d895d8dfea4e7d3f45871baa8bbeb42e1f7ad6) |
+| **IdentityVerifier** | [`0xCcD3...E64A`](https://sepolia.basescan.org/address/0xCcD30AD16857DeBa2c14bA66A2FDd3bA445EE64A) | [`0x69c8...d049`](https://sepolia.basescan.org/tx/0x69c8bdf97e4d12c7fce2c963bd9c1f818962a4a3b4e3d261d1f0e77c691dd049) |
 
+**Deployer**: [`0x7F75...C739`](https://sepolia.basescan.org/address/0x7F75bfAfeD5c96584774c7F2Bc33F3bF887BC739) | **Network**: Base Sepolia
 ## How It Works
 
 1. **Identity Creation**: A user creates a master identity on Ethereum, linking their wallet address, verified credentials, and reputation scores. The identity is anchored as a soulbound NFT.
